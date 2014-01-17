@@ -1,6 +1,6 @@
 var RamenTimer = function(){
   this.remindTime=0;
-  this.menType=2;
+  this.menType=1;
 }
 
 RamenTimer.prototype={
@@ -31,9 +31,7 @@ RamenTimer.prototype={
 
 $(function(){
   timer=new RamenTimer();
-  $(this).click(fcuntion(){
-    time.start();
-  });
+    timer.start();
 
 });
 
